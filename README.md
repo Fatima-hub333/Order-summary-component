@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL is here](https://github.com/Fatima-hub333/Order-summary-component.git)
-- Live Site URL: [Live site URL is here](https://sparkling-muffin-af6b37.netlify.app)
+- Live Site URL: [Live site URL is here](https://melodic-fairy-0c0424.netlify.app)
 
 ## My process
 I create html template first after that I started stylin components one by one.
