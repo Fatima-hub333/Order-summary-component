@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Properties */
+
+/* ----------------- */
+:root {
+  /* primary colors */
+  --clr-paleblue: hsl(225, 100%, 94%);
+  --clr-brightblue: hsl(245, 75%, 52%);
+
+  /* Neutral colors */
+  --clr-vpaleblue: hsl(225, 100%, 98%);
+  --clr-desablue: hsl(224, 23%, 55%);
+  --clr-darkblue: hsl(223, 47%, 23%);
+
+  /* font-sizes */
+  --fs-para: 1rem;
+
+  /* font weight */
+  --fw-thin: 500;
+  --fw-thick: 700;
+  --fw-thicker: 900;
+
+  /* font family */
+  --ff-hat: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-color: var(--clr-paleblue);
+  font-family: var(--ff-hat);
+}
+
+.container {
+  background-color: white;
+  width: 20rem;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 70px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main,
+header h1 {
+  padding: 16px;
+}
+
+header img {
+  width: 323px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-subcontent {
+  background-color: rgba(224, 232, 255, 0.4);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+#btn-paymnt {
+  background-color: var(--clr-brightblue);
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: var(--fw-thicker);
+  box-shadow: 0 30px rgba(224, 232, 255, 0.2);
+}
+
+.btn-bg {
+  margin-top: 40px;
+  background: transparent;
+  border: none;
+  color: gray;
+  font-weight: var(--fw-thicker);
+}
+
+#bold-p {
+  font-weight: var(--fw-thicker);
+}
