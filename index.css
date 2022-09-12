@@ -32,8 +32,15 @@
 }
 
 body {
+  background-image: url("images/pattern-background-mobile.svg");
+  background-position: top;
+  background-repeat: repeat-x;
   background-color: var(--clr-paleblue);
   font-family: var(--ff-hat);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
